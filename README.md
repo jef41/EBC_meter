@@ -37,4 +37,5 @@ This is proof of concept rather than a robust working device.
 
 With the addition of sample filtration and/or some compensation for turbidity this looks promising. The ?? sensor that I started with will have much greater sensitivity, and would allow for better TIA gain and ADC, but at a considerably higher component count. The APDS-9250 might remain the preferred approach.
 
-![Photograph of the components in a solderless prototyping baord and held together in a 3D printed housing](/assets/images/electrocat.png)
+<img src="https://github.com/jef41/EBC_meter/assets/6393750/a3368ae0-cfd2-4016-bc10-9a0ef1f00d6d" width="40%" alt="Photograph of the components in a solderless prototyping baord and held together in a 3D printed housing">
+
