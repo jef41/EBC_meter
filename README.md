@@ -17,6 +17,8 @@ Next steps will be to filter the beer (which appears bright to the eye, but clou
 
 Subsequent to that, source a 700nm LED to measure turbidity, and subtract the turbidity EBC units from the 430nm EBC units. This requires 2 LEDs and 2 sensors, which could be vertically stacked.
 
+The sensor can provide RGB values, might be interesting to also return CIE Lab colour values. See Koren, Dániel & Vecseri, Beáta & Kun-Farkas, Gabriella & Urbin, Ágnes & Nyitrai, Ákos & Sipos, László. (2020). How to objectively determine the color of beer?. Journal of Food Science and Technology. 57. 10.1007/s13197-020-04237-4. (https://doi.org/10.1007/s13197-020-04237-4)
+
 ### Hardware
 Current setup is using 
 * a Raspberry Pi Pico to switch
