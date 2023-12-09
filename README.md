@@ -13,9 +13,9 @@ Although this worked in principle, I first needed a better understanding and a h
 ### Current setup
 The included code correctly measures values for a neutral density filter, to within about 0.5 EBC units. However, when used with a beer sample light scattering is too much of an issue and an approximately 25 EBC beer (Amber to Copper) is detected as about 70 EBC (Stout). 
 ## To Do
-Next steps will be to filter the beer (which appears bright to the eye, but cloudy under 430nm), early indications show that filteration improves the accuracy, but only bringing the reading to about 50 EBC. Further testing is required on this point.
+Next steps will be to filter the beer (which appears bright to the eye, but cloudy under 430nm), early indications show that filtration improves the accuracy, but only bringing the reading to about 50 EBC. Further testing is required on this point.
 
-Subsequent to that, source a 700nm LED to measure turbidity, and subtract the turbidity EBC units from the 430nm EBC units. This requires 2 LEDs and 2 sensors, which could be vertically stacked.
+Subsequent to that, source a 700nm LED to measure turbidity, and subtract the turbidity EBC units from the 430nm EBC units. This requires 2 LEDs and at least 2 sensors, which could be vertically stacked. Nephelometry
 
 The sensor can provide RGB values, might be interesting to also return CIE Lab colour values. See Koren, Dániel & Vecseri, Beáta & Kun-Farkas, Gabriella & Urbin, Ágnes & Nyitrai, Ákos & Sipos, László. (2020). How to objectively determine the color of beer?. Journal of Food Science and Technology. 57. 10.1007/s13197-020-04237-4. (https://doi.org/10.1007/s13197-020-04237-4)
 
