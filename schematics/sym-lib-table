@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "w_microcontrollers")(type "Legacy")(uri "${KIPRJMOD}/libs/w_microcontrollers.lib")(options "")(descr ""))
+  (lib (name "AD8615AUJZ-R2")(type "Legacy")(uri "${KIPRJMOD}/libs/AD8615AUJZ-R2.lib")(options "")(descr ""))
+)
