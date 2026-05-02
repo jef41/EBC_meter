@@ -1,0 +1,111 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1m 10m 2m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "I(R70)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "I(XU10:SHDN)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(+5V)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(3V3A)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(BlueSample)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(179, 179, 179)",
+          "signal": "V(Net-_C17-Pad1_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_D6-K_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(Net-_Q5-G_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "cursor1": {
+            "position": 0.005196428571428571,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "V(Net-_Q5-S_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 217, 47)",
+          "cursor2": {
+            "position": 0.005107142857142857,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "V(Net-_U10-+_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "signal": "V(Net-_U10--_)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "OP",
+      "commands": [
+        ".op",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
